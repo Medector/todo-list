@@ -1,0 +1,18 @@
+.searchBar{
+    background-color: rgb(228, 219, 236);
+border-radius: 2px;
+border: 2px solid;
+border-color: blueviolet;
+height : 64px;
+width: calc(100% - 60px);
+text-align: center;
+font-weight: 500;
+font-size: 30px;
+margin: 24px;
+margin-bottom: 0px;
+}
+.searchBar::placeholder{
+    margin-top: 10px;
+    justify-content: center;
+    color: rgb(75, 120, 255);
+}
