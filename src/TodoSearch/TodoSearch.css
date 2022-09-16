@@ -1,10 +1,12 @@
 .searchBar{
-    background-color: rgb(228, 219, 236);
-border-radius: 2px;
-border: 2px solid;
-border-color: blueviolet;
+   
+    background-color: rgb(74, 69, 78);
+border-radius: 35px;
+border: 5px solid;
+border-color: rgba(89, 144, 245, 0.839);
 height : 64px;
-width: calc(100% - 60px);
+width: calc(100% - 50%);
+justify-content: center;
 text-align: center;
 font-weight: 500;
 font-size: 30px;
@@ -14,5 +16,9 @@ margin-bottom: 0px;
 .searchBar::placeholder{
     margin-top: 10px;
     justify-content: center;
-    color: rgb(75, 120, 255);
+    color: rgb(255, 255, 255);
+}
+.searchBarContainer{
+    display: flex;
+    justify-content: center;
 }
